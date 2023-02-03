@@ -72,7 +72,7 @@ export const Login = () => {
                 <div className="row d-flex justify-content-center">
 
                     <div className="col-md-5 px-0 bg-light my-5 shadow" style={{ borderRadius: '10px' }}>
-                        <div className="fs-3 fw-bold text-light p-2 px-5" style={{ backgroundColor: '#094584', borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }}>
+                        <div className="fs-3 fw-bold p-2 px-5" style={{ backgroundColor: '#87cfe8', borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }}>
                             Login
                         </div>
                         <div className="m-4">
@@ -88,7 +88,7 @@ export const Login = () => {
                                         <label htmlFor="floatingPassword">Password</label>
                                     </div>
 
-                                    <button className='btn text-light mb-3' type='submit' style={{ backgroundColor: '#094584', width: '100%', height: '45px', borderRadius: '30px' }}>Login</button>
+                                    <button className='btn mb-3' type='submit' style={{ backgroundColor: '#87cfe8', width: '100%', height: '45px', borderRadius: '30px' }}>Login</button>
                                 </form>
 
                                 <div className='text-center'>Don't Have an Account? <Link to='/Registrasi' className='text-decoration-none fw-bold'>Sign Up</Link></div>

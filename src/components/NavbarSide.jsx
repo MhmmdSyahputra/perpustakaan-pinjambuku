@@ -13,7 +13,7 @@ export const NavbarSide = () => {
           }
     return (
         <>
-            <div className="col-3 me-5 bg-light">
+            <div className="col-3 me-5" style={{background:'#ADD8E6'}}>
 
                 <nav className="nav d-block sticky-top">
                     <Link to='/' className="nav-link my-4 text-dark" href="#"><i className="fa-solid fa-house-chimney fs-3 me-4"></i>Dasboard</Link>

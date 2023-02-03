@@ -86,7 +86,7 @@ export const Registrasi = () => {
                 <div className="row d-flex justify-content-center">
 
                     <div className="col-md-5 px-0 bg-light my-5 shadow" style={{ borderRadius: '10px' }}>
-                        <div className="fs-3 fw-bold text-light p-2 px-5" style={{ backgroundColor: '#094584', borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }}>
+                        <div className="fs-3 fw-bold p-2 px-5" style={{ backgroundColor: '#87cfe8', borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }}>
                             Sign Up
                         </div>
                         <div className="m-4">
@@ -108,11 +108,11 @@ export const Registrasi = () => {
                                     </div>
 
 
-                                    <button className='btn text-light mb-3' type='submit' style={{ backgroundColor: '#094584', width: '100%', height: '45px', borderRadius: '30px' }}>Sign Up</button>
+                                    <button className='btn mb-3' type='submit' style={{ backgroundColor: '#87cfe8', width: '100%', height: '45px', borderRadius: '30px' }}>Sign Up</button>
 
                                 </form>
 
-                                <div className='text-center'>Already have an Account? <Link to='/Login' className='text-decoration-none fw-bold'>Sign In</Link></div>
+                                <div className='text-center'>Already have an Account? <Link to='/login' className='text-decoration-none fw-bold'>Sign In</Link></div>
                             </div>
                         </div>
                     </div>

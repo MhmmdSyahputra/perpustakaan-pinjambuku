@@ -13,19 +13,15 @@ export const Daftarbuku = () => {
     useEffect(() => {
 
         if (!local) {
-            // window.location.replace("/login");
             window.history.pushState({}, '', '/login');
             navigate("/login");
             return;
         }
+
+        GetAllBook()
     }, [])
 
     const [daftarbuku, setDaftarBuku] = useState()
-
-    useEffect(() => {
-        GetAllBook()
-    }, [])
-    
 
     const GetAllBook = () => {
         axios
@@ -47,7 +43,7 @@ export const Daftarbuku = () => {
 
                     {/* this content center  */}
                     <div className="mx-3 p-0 col-8">
-                        <div className="row d-flex justify-content-center py-5">
+                        <div className="row d-flex text-light justify-content-center py-5">
                             <h2>Daftar buku</h2>
                             <hr />
                             <div className=" col-md-11 d-flex justify-content-center ">
