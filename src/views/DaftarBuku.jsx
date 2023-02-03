@@ -32,6 +32,10 @@ export const Daftarbuku = () => {
         })
     }
 
+    const AddBook = () =>{
+
+    }
+
     return (
         <>
 
@@ -45,6 +49,14 @@ export const Daftarbuku = () => {
                     <div className="mx-3 p-0 col-8">
                         <div className="row d-flex text-light justify-content-center py-5">
                             <h2>Daftar buku</h2>
+                            <div>
+
+                            {
+                                    local.user.email == "211111111@students.mikroskil.ac.id" ? (
+                                        <i className="fa-solid fa-square-plus btn fs-2 text-primary" onClick={()=>{AddBook()}}></i>
+                                    ) : ''
+                                }
+                            </div>
                             <hr />
                             <div className=" col-md-11 d-flex justify-content-center ">
                                 <div className="row d-flex justify-content-center">
