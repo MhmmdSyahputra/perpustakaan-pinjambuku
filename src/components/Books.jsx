@@ -37,6 +37,7 @@ export const Books = ({data}) => {
                 text: res.data.message,
                 icon: "success",
             });
+            navigate("/");
         })
     }
 
@@ -50,7 +51,7 @@ export const Books = ({data}) => {
                         <div className="title m-3">
                             <div className='fs-5 h3'>{data.judul}</div>
                             <div className='text-muted'>{data.penerbit}</div>
-                            <div className='text-muted'>Tahun Terbit 2020  ●  {data.lembar} lembar</div>
+                            <div className='text-muted'>Tahun Terbit {data.tanggalTerbit.split('-')[2]}  ●  {data.lembar} lembar</div>
                             <div className='pinjam m-4 text-end'>
                                 {
                                     local.user.email == "211111111@students.mikroskil.ac.id" ? (
